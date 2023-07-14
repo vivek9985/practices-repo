@@ -1,0 +1,39 @@
+.hide {
+    display: none;
+}
+@media only screen and (max-width: 1240px) {
+    .header-section {
+        justify-content: space-evenly;
+    }
+}
+@media only screen and (max-width: 1010px) {
+    .header-section {
+        justify-content: space-evenly;
+        gap: 5px;
+    }
+    .header-right-column img {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 576px) {
+    .menu {
+        width: 100%;
+        flex-direction: column;
+    }
+    .menu ul {
+        margin-top: 20px;
+        flex-direction: column;
+    }
+}
