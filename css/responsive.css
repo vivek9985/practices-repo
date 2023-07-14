@@ -1,5 +1,5 @@
 .hide {
-    display: none;
+    /* display: none; */
 }
 @media only screen and (max-width: 1240px) {
     .header-section {
@@ -35,5 +35,11 @@
     .menu ul {
         margin-top: 20px;
         flex-direction: column;
+    }
+    .header-section {
+        flex-direction: column;
+    }
+    .header-left-column, .header-right-column {
+        width: 90%;
     }
 }
